@@ -1,0 +1,104 @@
+html,
+body {
+  height: 100%;
+}
+
+
+.top-bar{
+	border-bottom:1px solid #ccd5db;
+	left:0;
+	position:relative;
+	right:0;
+	top:0;
+	z-index:2;
+}
+
+.menu-head{
+	background: rgba(255,255,255,1);
+	border-bottom: 1px solid rgba(255,255,255,0.1);
+	margin: 0 auto;
+	height: 46px;
+	max-width: 100%;
+	z-index: 0;
+}
+
+ul.menu-head-ul{
+	clear:both;
+	display:block;
+	float:none;
+	padding: 0;
+	margin-bottom: 0;
+}
+ul.menu-head-ul li.menu-head-li{
+	display:inline-block;
+	list-style-type:none;
+	border-right:1px solid rgba(0,0,0,0);
+}
+ul.menu-head-ul li.menu-head-li .menu_head_a{
+	display:inline-block;
+	margin:0 auto;
+	padding:12px 45px;
+	position:relative;
+	width:100%;
+	-webkit-transition:all .3s;
+	-moz-transition:all .3s;
+	-ms-transition:all .3s;
+	-o-transition:all .3s;
+	transition:all .3s;
+}
+ul.menu-head-ul li.menu-head-li .menu_head_a div#home,
+ul.menu-head-ul li.menu-head-li .menu_head_a div#login,
+ul.menu-head-ul li.menu-head-li .menu_head_a div#logout,
+ul.menu-head-ul li.menu-head-li .menu_head_a div#contacto{
+	text-indent:-99999px;
+}
+
+li.menu-head-li:first-child{
+	border-left:1px solid rgba(0,0,0,0);
+}
+.ico_login{
+	background:#fff url("../../img/ico/identify_v2.png") center center no-repeat;
+	-webkit-background-size:30px 30px;
+	-moz-background-size:30px 30px;
+	-ms-background-size:30px 30px;
+	-o-background-size:30px 30px;
+	background-size:30px 30px;
+}
+.ico_contact{
+	background:#fff url("../../img/ico/correo_v2.png") center center no-repeat;
+	-webkit-background-size:30px 30px;
+	-moz-background-size:30px 30px;
+	-ms-background-size:30px 30px;
+	-o-background-size:30px 30px;
+	background-size:30px 30px;
+}
+.ico_home{
+	background:#fff url("../../img/ico/home_v2.png") center center no-repeat;
+	-webkit-background-size:30px 30px;
+	-moz-background-size:30px 30px;
+	-ms-background-size:30px 30px;
+	-o-background-size:30px 30px;
+	background-size:30px 30px;
+}
+.ico_logout{
+	background:#fff url("../../img/ico/cross_v2.png") center center no-repeat;
+	-webkit-background-size:30px 30px;
+	-moz-background-size:30px 30px;
+	-ms-background-size:30px 30px;
+	-o-background-size:30px 30px;
+	background-size:30px 30px;
+}
+.ico_home:hover,.ico_contact:hover,.ico_login:hover, .ico_logout:hover{
+	-webkit-filter:grayscale(0.9);
+	-moz-filter:grayscale(0.9);
+	-ms-filter:grayscale(0.9);
+	-o-filter:grayscale(0.9);
+	filter:grayscale(0.9);
+}
+
+.page {
+  position: relative;
+  min-height: -webkit-calc(100% - 44px);
+  min-height:         calc(100% - 44px);
+  background: #f1f4f5;
+}
